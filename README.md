@@ -1,9 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Weather Forecast Application
+
+A modern weather forecast application built with Next.js that provides detailed weather information for cities worldwide. The application features a responsive design, real-time weather updates, and an intuitive user interface.
+
+## Features
+
+- **City Search**: Search for cities worldwide with autocomplete functionality
+- **Current Weather Display**: 
+  - Temperature and weather conditions
+  - Feels like temperature
+  - Humidity, wind speed, and pressure
+  - Sunrise and sunset times
+  - High and low temperatures
+  - Precise geographical coordinates
+- **5-Day Forecast**: Detailed weather predictions for the next 5 days
+- **Dynamic Weather Backgrounds**: Background changes based on weather conditions and time of day
+- **Responsive Design**: Optimized for both desktop and mobile devices
+- **Unit Toggle**: Switch between metric and imperial units
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Weather Data**: [OpenWeather API](https://openweathermap.org/api)
+- **Cities Data**: [OpenDataSoft API](https://public.opendatasoft.com/)
+- **TypeScript**: For type safety and better developer experience
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+```bash
+git clone https://github.com/hsayvaidya23/weather-forecast.git
+cd weather-forecast
+```
 
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
